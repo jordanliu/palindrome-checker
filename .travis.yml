@@ -4,7 +4,7 @@ node_js:
 script:
   - yarn test
   - yarn build
-  - yarn run deploy
+  - yarn deploy
 
 deploy:
   provider: pages
