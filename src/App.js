@@ -7,17 +7,26 @@ import {Palindrome} from './Helpers/palindrome';
 const {Title} = Typography;
 
 function App() {
-
-
   const [input, setInput] = useState('');
 
-  const handleChange = (e) => setInput(e.target.value);
+  const handleChange = event => setInput(event.target.value);
 
-
-  const handleClick = () => {
+  const handleClick = event => {
     let checkPalindrome = Palindrome(input.toString());
-    console.log(input.toString(), checkPalindrome)
-    checkPalindrome ? message.success("It is a palindrome!") : message.error("It is not a palindrome!");
+    //console.log(input.toString(), checkPalindrome);
+
+    input.toString() === ''
+      ? message.error('Enter a value')
+      : checkPalindrome
+      ? message.success('It is a palindrome!')
+      : message.error('It is not a palindrome!');
+  };
+
+  const handleKeyPress = event => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      handleClick();
+    }
   };
 
   return (
@@ -31,8 +40,8 @@ function App() {
                 size="large"
                 placeholder="Enter here"
                 onChange={handleChange}
+                onKeyDown={handleKeyPress}
               />
-              {console.log(input)}
               <Button type="primary" onClick={handleClick}>
                 Check
               </Button>
@@ -43,7 +52,6 @@ function App() {
       <Footer />
     </div>
   );
-
 }
 
 export default App;

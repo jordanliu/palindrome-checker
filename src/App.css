@@ -1,22 +1,30 @@
 @import '~antd/dist/antd.css';
 
+@media only screen and (max-width: 600px) {
+  .App .ant-input {
+    width: 100%;
+  }
+}
+
 * {
   overflow: hidden;
 }
 
 .App {
   text-align: center;
-  margin-top: 1em;
+  margin-top: 4em;
   padding: 1em;
 }
 
-.App .ant-input {
-  width: 50vh;
+.App input {
+  overflow: hidden;
+  width: 30em;
   display: flex;
   margin: 0 8px 8px 0;
 }
 
 .App button {
+  margin-top: 0.1em;
   display: inline-flex;
   justify-content: center;
   width: 20vh;
