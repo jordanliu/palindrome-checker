@@ -1,7 +1,11 @@
 # palindrome-checker
 <a href="https://travis-ci.org/jordanliu/palindrome-checker" alt="Travis CI">
-<img src="https://travis-ci.org/jordanliu/palindrome-checker.svg?branch=master"/></a>          
-          
+<img src="https://travis-ci.org/jordanliu/palindrome-checker.svg?branch=master"/></a></br>
+
+Simple palindrome checker built in React using [Create-React-App](https://github.com/facebook/create-react-app) and [Ant Design](https://github.com/ant-design/ant-design)
+
+<img src="https://user-images.githubusercontent.com/9423525/71199103-3b497d00-2263-11ea-8ac8-1e1ab32e2aa5.png"/>
+
 
 ## Installation
 - `cd palindrome-checker`
