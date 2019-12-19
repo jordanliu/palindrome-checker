@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Button, Typography, Input, Row, Col, Card, message} from 'antd';
-import Footer from './Footer';
+import Footer from './Components/Footer';
 import './App.css';
 import {Palindrome} from './Helpers/palindrome';
 
