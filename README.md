@@ -1,5 +1,7 @@
 # palindrome-checker
-
+<a href="https://travis-ci.org/jordanliu/palindrome-checker" alt="Travis CI">
+<img src="https://travis-ci.org/jordanliu/palindrome-checker.svg?branch=master"/></a>          
+          
 ## Available Scripts
 In the project directory, you can run:
 
