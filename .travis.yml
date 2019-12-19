@@ -3,7 +3,8 @@ node_js:
   - "stable"
 script:
   - yarn test
-  - yarn build
+  - yarn predeploy
+  - yarn deploy
 
 deploy:
   provider: pages
