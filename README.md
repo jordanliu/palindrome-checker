@@ -1,5 +1,6 @@
 # palindrome-checker
-<a href="https://travis-ci.org/jordanliu/palindrome-checker" alt="Travis CI">
+<a href="https://travis-ci.org/jordanliu/palindrome-checker" alt="Travis CI" rel="noopener noreferrer"
+        target="_blank">
 <img src="https://travis-ci.org/jordanliu/palindrome-checker.svg?branch=master"/></a></br>
 
 Simple palindrome checker built in React using [Create-React-App](https://github.com/facebook/create-react-app) and [Ant Design](https://github.com/ant-design/ant-design)
